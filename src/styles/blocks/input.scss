@@ -1,0 +1,21 @@
+.input {
+  font-family: inherit;
+  width: 100%;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  padding: 9px 0;
+  font-size: 15px;
+}
+
+.input:focus + .label {
+  transform: translateY(-15px);
+  font-size: 12px;
+}
+
+.input:not(:placeholder-shown) + .label {
+  transform: translateY(-15px);
+  font-size: 12px;
+}

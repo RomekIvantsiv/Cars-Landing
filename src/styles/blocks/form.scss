@@ -1,0 +1,14 @@
+.form {
+
+  &__row {
+    display: flex;
+    margin: 0 -20px;
+  }
+
+  &__group {
+    flex: 1;
+    padding: 0 20px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+}

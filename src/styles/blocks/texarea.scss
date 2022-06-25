@@ -1,0 +1,23 @@
+.textarea {
+  font-family: inherit;
+  width: 100%;
+  min-height: 130px;
+  resize: vertical;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  padding: 9px 0;
+  font-size: 15px;
+}
+
+.textarea:focus + .label {
+  transform: translateY(-15px);
+  font-size: 12px;
+}
+
+.textarea:not(:placeholder-shown) + .label {
+  transform: translateY(-15px);
+  font-size: 12px;
+}

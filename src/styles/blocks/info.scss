@@ -1,0 +1,31 @@
+.info {
+
+  transform: translateY(-50%);
+
+  &__item {
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    padding: 40px 40px 30px;
+  }
+
+  &__img {
+    margin-bottom: 20px;
+  }
+
+  &__img--image {
+    height: 30px;
+  }
+
+  &__title {
+    font-size: 18px;
+    letter-spacing: 0.15em;
+    margin-bottom: 13.5px;
+
+    text-transform: uppercase;
+  }
+
+  &__text {
+    font-size: 18px;
+    color: #b7b7b7;
+  }
+}

@@ -1,4 +1,4 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+# Cars landing page
+    - [DEMO LINK](https://romekivantsiv.github.io/Cars-landing/)
+    - [FIGMA DESIGN](https://www.figma.com/file/PHEnhLx8ilm0a446M2KcrR/Car-repair-(Course)?node-id=0%3A1)
+    - Technologies: HTML5/CSS3/SCSS/Adaptive layout/Pixel perfect

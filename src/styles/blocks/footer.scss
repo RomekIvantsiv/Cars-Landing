@@ -1,0 +1,30 @@
+.footer {
+
+  &__wrapper {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__soc {
+    display: flex;
+  }
+
+  &__soc-link {
+    margin-right: 20px;
+    text-decoration: none;
+  }
+
+  &__soc-link:last-child {
+    margin-right: 0;
+  }
+
+  &__soc-link--image {
+    height: 25px;
+  }
+}
+
+.copyright {
+  letter-spacing: 0.15em;
+}
